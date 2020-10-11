@@ -63,7 +63,10 @@ public class Libro extends Escrito {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return co_autor + "\n"
+		return this.getTitulo() + "\n"
+				+this.getAutor() + "\n"
+				+this.getPaginas() + "\n"
+				+ co_autor + "\n"
 				+ editorial + "\n"
 				+ edicion;
 	}
