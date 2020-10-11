@@ -12,7 +12,7 @@ public class Libro extends Escrito {
 		this.co_autor=co_autor;
 		this.editorial=editorial;
 		this.edicion=edicion;
-		interpretacion=interpre;
+		this.interpretacion=interpre;
 		// TODO Auto-generated constructor stub
 	}
 
@@ -51,7 +51,7 @@ public class Libro extends Escrito {
 	@Override
 	public int palabrasTotales(int palabrasPagina) {
 		// TODO Auto-generated method stub
-		return palabrasPagina*2*this.getPaginas();
+		return palabrasPagina*this.getPaginas()*2;
 	}
 
 	@Override
