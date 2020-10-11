@@ -26,7 +26,7 @@ public class Fabula extends Escrito {
 	@Override
 	public int palabrasTotales(int palabrasPagina) {
 		// TODO Auto-generated method stub
-		return palabrasPagina;
+		return palabrasPagina*this.getPaginas();
 	}
 
 	@Override
