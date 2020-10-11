@@ -74,8 +74,7 @@ public class Tesis extends Escrito {
 				+ idea + "\n"
 				+ argumentos.length + "\n"
 				+ conclusion + "\n"
-				+ referencias + "\n"
-				+ interpretacion;
+				+ referencias;
 	}
 
 }
